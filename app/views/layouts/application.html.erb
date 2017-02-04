@@ -3,7 +3,7 @@
   <head>
     <title>NewGem</title>
     <%= csrf_meta_tags %>
-    <link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -20,17 +20,20 @@
         <span class="icon-bar"></span>
       </button>
       
-      <a href="/" class="navbar-brand">Navigation</a>
+      <a href="/" class="navbar-brand">Home</a>
+      <a href="/" class="navbar-brand">Gallery</a>
+      <a href="/" class="navbar-brand">About</a>
+      <a href="/" class="navbar-brand">Blog</a>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/about">About</a></li>
+        <li><a href="/about">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
     
-    <div class="container">
+    <div class="container-fluid">
     <%= yield %>
     </div>
   </body>
