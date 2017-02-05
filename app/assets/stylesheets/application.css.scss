@@ -24,22 +24,19 @@ h1,h2,h3,p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Unica One', cursive;
-    font-weight:800;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Bungee Shade', cursive;
-    font-weight:800;
 
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Bungee Shade', cursive;
-    font-weight:800;
 
 }
 
@@ -88,6 +85,18 @@ p {
     
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
 
 //Homepage Styles
 .container-fluid { 
