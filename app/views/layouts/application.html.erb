@@ -18,18 +18,41 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        </div>
       </button>
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <i class="fa fa-group"></i>
+         Home
+      <% end %>
       
-      <a href="/" class="navbar-brand"><i class="fa fa-info"></i> Home</a>
-      <a href="/gallery" class="navbar-brand"><i class="fa fa-camera"></i> Gallery</a>
-      <a href="/about" class="navbar-brand"><i class="fa fa-eye"></i> About</a>
-      <a href="/blog" class="navbar-brand"><i class="fa fa-file-o"></i> Blog</a>
-      <a href="/contact" class="navbar-brand"><i class="fa fa-floppy-o"></i> Contact</a>
+       <%= link_to gallery_path, class:"navbar-brand" do %>
+       <i class="fa fa-camera"></i>
+       Gallery
+       <% end %>
+       
+       <%= link_to about_path, class:"navbar-brand" do %>
+       <i class="fa fa-eye"></i>
+       About
+       <% end %>
+       
+       
+       <%= link_to blog_path, class:"navbar-brand" do %>
+       <i class="fa fa-file-o"></i>
+       Blog
+       <% end %>
+      
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
-      <ul class="nav navbar-nav navbar-right">
-  
-        </li>
+        
+    
+       
+      <div class="nav navbar-nav navbar-right">
+        <%= link_to contact_path, class:"navbar-brand" do %>
+          <i class="fa fa-floppy-o"></i>
+          Contact
+          <% end %>
+        </div>
+        </div>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
