@@ -19,12 +19,37 @@
  @import "font-awesome";
  
 //Typography Styles 
-h1,h2,h3 {
-    font-family:'VT323', monospace;
+h1,h2,h3,p {
+
 }
 
+h1 {
+    font-size: 50px;
+    font-family: 'Unica One', cursive;
+    font-weight:800;
+}
 
+h2 {
+    font-size: 40px;
+    font-family: 'Bungee Shade', cursive;
+    font-weight:800;
 
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Bungee Shade', cursive;
+    font-weight:800;
+
+}
+
+p {
+    font-size: 20px;
+    margin: 200px;
+    font-family: 'Press Start 2P', cursive;
+
+    
+}
 .home-callout, .navbar{
  
     background: #304352; /* fallback for old browsers */
@@ -33,13 +58,17 @@ h1,h2,h3 {
 
 }
 
+.navdar-brand {
+    font-family: 'Bangers', cursive;
+    font-weight:800;
+}
+
 
     
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand  {
     color:red;
-    font-family:'VT323', monospace;
-    font-size: 30px;
+    font-family: 'Bangers', cursive;    font-size: 30px;
     padding: 50px;
 }
  
@@ -54,15 +83,14 @@ h1,h2,h3 {
 
 //NAv styles
 .navbar{
-    margin-left: 200px;
+    
     border: none;
     
 }
 
 
 //Homepage Styles
-.home-callout, .container-fluid, .gallery-callout, 
-.about-callout, .blog-callout, .contact-callout { 
+.container-fluid { 
     margin-right: auto;
     margin-left: auto;
     padding-left: 0px;
@@ -81,9 +109,9 @@ body {
 }
 
     
-.container {
+.container-fluid {
     margin-right: 30px;
-    margin-left: 300px;
+    margin-left: 0px;
     padding-left: 40px;
     padding-right: 40px;
 }
